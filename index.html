@@ -6,10 +6,10 @@
   <title>EcomCla — Pre-Built Ecommerce Businesses for Sale</title>
   <meta name="description" content="Buy a fully built, revenue-ready ecommerce business for $48.99. Ad creatives, social media accounts, and proven revenue included. Ranked #2 globally 2026.">
   <meta name="theme-color" content="#0A0A0B">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%230A0A0B'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia,serif' font-size='40' fill='%23F5F5F4'%3EE%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='4' fill='%230A0A0B'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia,serif' font-size='40' fill='%23D4B678'%3EE%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script>document.documentElement.classList.add('js');</script>
   <script src="nav.js" defer></script>
@@ -21,134 +21,335 @@
     <!-- HERO -->
     <section class="hero">
       <div class="container hero-grid fade-up">
+        <div class="hero-visual stagger-child" aria-hidden="true">
+          <div class="mock-browser">
+            <div class="mock-bar">
+              <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+              <span class="mock-url">yourstore.com</span>
+            </div>
+            <div class="mock-store">
+              <div class="mock-nav">
+                <span class="mock-logo"></span>
+                <span class="mock-links"><i></i><i></i><i></i></span>
+              </div>
+              <div class="mock-product">
+                <div class="mock-image">
+                  <svg viewBox="0 0 120 120" class="mock-product-art">
+                    <defs>
+                      <linearGradient id="mockGold" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#E9D3A1"/>
+                        <stop offset="1" stop-color="#9C8250"/>
+                      </linearGradient>
+                    </defs>
+                    <rect x="44" y="18" width="32" height="12" rx="2" fill="#2A2A2E"/>
+                    <rect x="36" y="30" width="48" height="72" rx="6" fill="url(#mockGold)"/>
+                    <rect x="44" y="52" width="32" height="22" rx="2" fill="rgba(10,10,11,0.22)"/>
+                  </svg>
+                </div>
+                <div class="mock-info">
+                  <i class="mock-line w80"></i>
+                  <i class="mock-line w55"></i>
+                  <span class="mock-stars">★★★★★</span>
+                  <i class="mock-line mock-line--gold w35"></i>
+                  <span class="mock-btn">Add to cart</span>
+                  <i class="mock-line thin w90"></i>
+                  <i class="mock-line thin w70"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mock-float mock-revenue">
+            <span class="live-tag"><span class="pulse-dot"></span>Live · Updates daily</span>
+            <span class="counter" data-counter="6421.53" data-duration="2400">$0.00</span>
+            <span class="mock-caption">Avg. monthly revenue of sold businesses</span>
+            <svg class="mock-spark" viewBox="0 0 160 40" preserveAspectRatio="none">
+              <path d="M0 34 L20 30 L40 32 L60 22 L80 25 L100 15 L120 17 L140 8 L160 4" fill="none" stroke="#D4B678" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M0 34 L20 30 L40 32 L60 22 L80 25 L100 15 L120 17 L140 8 L160 4 V40 H0 Z" fill="rgba(212,182,120,0.10)"/>
+            </svg>
+          </div>
+
+          <div class="mock-float mock-phone">
+            <div class="mock-phone-screen">
+              <span class="mock-play">
+                <svg viewBox="0 0 24 24"><path d="M9 7.5v9l7.5-4.5z" fill="#0A0A0B"/></svg>
+              </span>
+              <i class="mock-line w70"></i>
+              <i class="mock-line thin w50"></i>
+            </div>
+          </div>
+
+          <div class="mock-float mock-toast">
+            <span class="mock-toast-icon">
+              <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+            </span>
+            <span>
+              <strong>Business transferred</strong>
+              <span>Delivered within 48 hours</span>
+            </span>
+          </div>
+        </div>
+
         <div class="hero-copy">
-          <h1 class="stagger-child">Your Business.<br>Already Built.<br>Already Profitable.</h1>
+          <h1 class="stagger-child">Your Business.<br>Already Built.<br><span class="accent">Already Profitable.</span></h1>
           <p class="hero-sub stagger-child">EcomCla delivers done-for-you ecommerce businesses — complete with ad creatives, social media accounts, and proven revenue. You buy it. You post. You profit.</p>
+
+          <ul class="hero-features stagger-child">
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+              <span><strong>Ad Creatives</strong><span>Ready to post on day one</span></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="1.5"/><path d="M11 18h2"/></svg>
+              <span><strong>Social Accounts</strong><span>IG, TikTok, FB included</span></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="M5 16l4.5-4.5 3.5 3 6-6.5"/><path d="M15 8h4v4"/></svg>
+              <span><strong>Revenue Data</strong><span>Proven. Verified. Yours.</span></span>
+            </li>
+            <li>
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
+              <span><strong>Onboarding</strong><span>48hr support included</span></span>
+            </li>
+          </ul>
+
           <div class="btn-row stagger-child">
             <a href="buy.html" class="btn btn-primary">Get Your Business — $48.99</a>
             <a href="whats-included.html" class="btn btn-secondary">See What's Included</a>
           </div>
-        </div>
 
-        <aside class="stat-card stagger-child" aria-label="Live marketplace stats">
-          <span class="live-tag"><span class="pulse-dot" aria-hidden="true"></span>Live · Updates daily</span>
-          <span class="counter" data-counter="6421.53" data-duration="2400">$0.00</span>
-          <p class="stat-card-label">Current avg. monthly revenue of sold businesses</p>
-          <hr class="stat-card-rule">
-          <div class="mini-stats">
-            <div class="mini-stat">
-              <span class="mini-stat-num">2,400+</span>
-              <span class="mini-stat-label">Businesses Sold</span>
-            </div>
-            <div class="mini-stat">
-              <span class="mini-stat-num">4.9 ★</span>
-              <span class="mini-stat-label">Avg. Rating</span>
-            </div>
-            <div class="mini-stat">
-              <span class="mini-stat-num">48hr</span>
-              <span class="mini-stat-label">Delivery</span>
-            </div>
-          </div>
-        </aside>
+          <ul class="trust-row stagger-child">
+            <li>
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5.5"/><path d="M8.5 13.5 7 21l5-2.5 5 2.5-1.5-7.5"/></svg>
+              Ranked #2 Globally
+            </li>
+            <li>
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.25 4.1 1 5.8L12 16.9l-5.25 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>
+              4.9★ Rating
+            </li>
+            <li>
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.6a3.5 3.5 0 0 1 0 6.8"/><path d="M18 14.2a6.5 6.5 0 0 1 3.5 5.8"/></svg>
+              2,400+ Sold
+            </li>
+            <li>
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="M3 10h18"/><path d="M7 15h3"/></svg>
+              One-Time Payment
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <hr class="section-divider">
-
-    <!-- AWARD BANNER -->
-    <section class="award">
-      <div class="award-inner fade-up">
-        <span class="award-trophy stagger-child" aria-hidden="true">🏆</span>
-        <span class="kicker stagger-child">2026 Global Marketplace Excellence Awards</span>
-        <h2 class="heading stagger-child">Ranked &amp; Selected #2</h2>
-        <p class="award-sub stagger-child">Pre-Built Business Marketplace Category</p>
-        <hr class="short-rule stagger-child">
-        <div class="stagger-child">
+    <!-- AWARD + STATS -->
+    <section class="proof">
+      <div class="container proof-grid fade-up">
+        <div class="proof-award stagger-child">
+          <span class="award-trophy" aria-hidden="true">🏆</span>
+          <span class="kicker">2026 Global Marketplace Excellence Awards</span>
+          <h2 class="heading">Ranked &amp; Selected <span class="accent">#2</span></h2>
+          <p class="award-sub">Pre-Built Business Marketplace Category</p>
           <blockquote>
             “We're honored to be selected #2 as the best pre-built business marketplace in the 2026 Global Marketplace Excellence Awards. Thank you to everyone who voted for us — your support means everything. Let's finish 2026 strong and make 2027 our best year yet.”
           </blockquote>
           <p class="award-attribution">— The EcomCla Team</p>
         </div>
+
+        <div class="proof-stats stagger-child">
+          <div class="proof-stat proof-stat--live">
+            <span class="live-tag"><span class="pulse-dot" aria-hidden="true"></span>Live · Updates daily</span>
+            <span class="counter" data-counter="6421.53" data-duration="2600">$0.00</span>
+            <span class="proof-label">Current average monthly revenue of businesses sold on EcomCla</span>
+            <span class="proof-note">Verified across active sellers. Updated every 24 hours.</span>
+          </div>
+          <div class="proof-stat">
+            <span class="proof-num">2,400+</span>
+            <span class="proof-label">Businesses Sold</span>
+          </div>
+          <div class="proof-stat">
+            <span class="proof-num">4.9 ★</span>
+            <span class="proof-label">Avg. Rating</span>
+          </div>
+          <div class="proof-stat">
+            <span class="proof-num">48hr</span>
+            <span class="proof-label">Delivery</span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- SOCIAL PROOF MARQUEE -->
-    <div class="marquee" role="region" aria-label="EcomCla highlights">
-      <div class="marquee-track">
-        <div class="marquee-group">
-          <span class="mq-sep" aria-hidden="true"></span><span>2,400+ businesses sold</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>Avg. monthly revenue: $6,421.53</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>4.9★ customer rating</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>Ranked #2 globally 2026</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>48hr business delivery</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>Ad creatives included</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>Social media accounts included</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>One-time payment</span>
-          <span class="mq-sep" aria-hidden="true"></span><span>No experience needed</span>
+    <!-- REVIEWS (rendered from REVIEWS in nav.js; hidden while empty) -->
+    <section class="section reviews" id="reviews" hidden>
+      <div class="container">
+        <div class="reviews-head">
+          <div>
+            <h2 class="heading">What Our Owners <span class="accent">Say.</span></h2>
+            <p class="reviews-rating">
+              <span>Excellent</span>
+              <strong>4.9</strong>
+              <span>/ 5</span>
+            </p>
+          </div>
+          <div class="reviews-nav">
+            <button type="button" class="reviews-prev" aria-label="Previous reviews">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+            </button>
+            <button type="button" class="reviews-next" aria-label="Next reviews">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
         </div>
-        <div class="marquee-group" aria-hidden="true">
-          <span class="mq-sep"></span><span>2,400+ businesses sold</span>
-          <span class="mq-sep"></span><span>Avg. monthly revenue: $6,421.53</span>
-          <span class="mq-sep"></span><span>4.9★ customer rating</span>
-          <span class="mq-sep"></span><span>Ranked #2 globally 2026</span>
-          <span class="mq-sep"></span><span>48hr business delivery</span>
-          <span class="mq-sep"></span><span>Ad creatives included</span>
-          <span class="mq-sep"></span><span>Social media accounts included</span>
-          <span class="mq-sep"></span><span>One-time payment</span>
-          <span class="mq-sep"></span><span>No experience needed</span>
+        <div class="reviews-track"></div>
+      </div>
+    </section>
+
+    <!-- IMAGE WITH TEXT -->
+    <section class="section split">
+      <div class="container split-grid fade-up">
+        <div class="split-visual stagger-child" aria-hidden="true">
+          <div class="package-card">
+            <div class="package-head">
+              <span class="package-title">Your business package</span>
+              <span class="package-badge">Ready</span>
+            </div>
+            <ul class="package-rows">
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M3.5 9 5 4h14l1.5 5"/><path d="M3.5 9h17"/><path d="M5 9v11h14V9"/><path d="M10 20v-5h4v5"/></svg>
+                <span>Pre-built storefront</span><em>Live</em>
+              </li>
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+                <span>Ad videos &amp; creatives</span><em>Ready to post</em>
+              </li>
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="1.5"/><path d="M11 18h2"/></svg>
+                <span>Social media accounts</span><em>IG · TikTok · FB</em>
+              </li>
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></svg>
+                <span>Validated winning product</span><em>Included</em>
+              </li>
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 11.5h6M9 15h6M9 18.5h3.5"/></svg>
+                <span>Revenue &amp; performance data</span><em>Included</em>
+              </li>
+              <li>
+                <svg class="icon icon--sm" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9"/><path d="M17 6l2.5 2.5"/><path d="M14.5 8.5l2 2"/></svg>
+                <span>Supplier contacts</span><em>Handed over</em>
+              </li>
+            </ul>
+            <div class="package-foot">
+              <span class="package-foot-row"><span>Full ownership transfer</span><span>48 hours</span></span>
+              <span class="package-progress"><span></span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="split-copy stagger-child">
+          <span class="kicker">Complete business package</span>
+          <h2 class="heading">Everything Is Done <span class="accent">For You.</span></h2>
+          <p>Every EcomCla business ships as a complete, revenue-ready package. Here's exactly what you receive the moment you purchase.</p>
+          <ul class="split-list">
+            <li><svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Pre-built ecommerce storefront</li>
+            <li><svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Done-for-you ad videos &amp; creatives</li>
+            <li><svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Social media accounts (IG, TikTok, FB)</li>
+            <li><svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>48hr delivery &amp; onboarding support</li>
+          </ul>
+          <div class="btn-row">
+            <a href="whats-included.html" class="btn btn-secondary">See What's Included</a>
+          </div>
         </div>
       </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <div class="band band--surface">
+      <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wave-back" d="M0 50 C 240 10 480 90 720 55 S 1200 15 1440 45 V90 H0 Z"/>
+        <path class="wave-front" d="M0 65 C 300 30 520 95 780 65 S 1220 35 1440 60 V90 H0 Z"/>
+      </svg>
+      <section class="section vs-section">
+        <div class="container fade-up">
+          <div class="section-head stagger-child">
+            <h2 class="heading">Why Choose <span class="accent">EcomCla?</span></h2>
+            <p>See exactly what you're getting — and what you're skipping.</p>
+          </div>
+
+          <div class="vs stagger-child">
+            <table class="vs-table">
+              <thead>
+                <tr>
+                  <th scope="col"><span class="visually-hidden">Feature</span></th>
+                  <th scope="col" class="vs-us"><span class="vs-brand">EcomCla</span></th>
+                  <th scope="col" class="vs-them">Starting From Scratch</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Pre-built storefront</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Ad creatives &amp; video ads</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Social media accounts</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Revenue data</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Winning product research</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Supplier contacts</th><td class="vs-us"><svg class="icon vs-yes" viewBox="0 0 24 24" role="img" aria-label="Yes"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></td><td class="vs-them"><svg class="icon vs-no" viewBox="0 0 24 24" role="img" aria-label="No"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></td></tr>
+                <tr><th scope="row">Time to launch</th><td class="vs-us"><span class="vs-text vs-text--us">48 hours</span></td><td class="vs-them"><span class="vs-text">3–6 months</span></td></tr>
+                <tr><th scope="row">Cost</th><td class="vs-us"><span class="vs-text vs-text--us">$48.99</span></td><td class="vs-them"><span class="vs-text">$5,000–$50,000+</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- HOW IT WORKS -->
-    <section class="section how">
-      <div class="container fade-up">
-        <div class="section-head stagger-child">
-          <h2 class="heading">How EcomCla Works</h2>
-          <p>From purchase to profit in three steps.</p>
+    <div class="band">
+      <svg class="wave wave--down" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+        <path class="wave-back" d="M0 50 C 240 10 480 90 720 55 S 1200 15 1440 45 V90 H0 Z"/>
+        <path class="wave-front" d="M0 65 C 300 30 520 95 780 65 S 1220 35 1440 60 V90 H0 Z"/>
+      </svg>
+      <section class="section how">
+        <div class="container fade-up">
+          <div class="section-head stagger-child">
+            <h2 class="heading">How EcomCla <span class="hl">Works</span></h2>
+            <p>From purchase to profit in three steps.</p>
+          </div>
+
+          <div class="how-steps">
+            <article class="how-step stagger-child">
+              <span class="how-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg>
+              </span>
+              <span class="how-num">01</span>
+              <h3>Buy Your Business</h3>
+              <p>Browse our available pre-built businesses and complete your purchase for a one-time fee of $48.99. Instant access to everything after checkout.</p>
+            </article>
+
+            <article class="how-step stagger-child">
+              <span class="how-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7v10l8 4 8-4V7z"/><path d="M4 7l8 4 8-4"/><path d="M12 11v10"/></svg>
+              </span>
+              <span class="how-num">02</span>
+              <h3>Receive Everything</h3>
+              <p>Within 48 hours, we transfer your complete business: the storefront, social accounts, ad creatives, supplier contacts, and revenue data.</p>
+            </article>
+
+            <article class="how-step stagger-child">
+              <span class="how-icon">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16"/><path d="M5 16l4.5-4.5 3.5 3 6-6.5"/><path d="M15 8h4v4"/></svg>
+              </span>
+              <span class="how-num">03</span>
+              <h3>Post &amp; Profit</h3>
+              <p>Your ads are already made. Your products are already loaded. Post the creatives we give you and start generating revenue — no experience needed.</p>
+            </article>
+          </div>
         </div>
-
-        <div class="steps">
-          <article class="step stagger-child">
-            <span class="step-dot" aria-hidden="true"></span>
-            <span class="step-label">01</span>
-            <h3>Buy Your Business</h3>
-            <p>Browse our available pre-built businesses and complete your purchase for a one-time fee of $48.99. Instant access to everything after checkout.</p>
-          </article>
-
-          <article class="step stagger-child">
-            <span class="step-dot" aria-hidden="true"></span>
-            <span class="step-label">02</span>
-            <h3>Receive Everything</h3>
-            <p>Within 48 hours, we transfer your complete business: the storefront, social accounts, ad creatives, supplier contacts, and revenue data.</p>
-          </article>
-
-          <article class="step stagger-child">
-            <span class="step-dot" aria-hidden="true"></span>
-            <span class="step-label">03</span>
-            <h3>Post &amp; Profit</h3>
-            <p>Your ads are already made. Your products are already loaded. Post the creatives we give you and start generating revenue — no experience needed.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <hr class="section-divider">
-
-    <!-- STANDALONE LIVE REVENUE STAT -->
-    <section class="revenue">
-      <div class="container fade-up">
-        <span class="live-tag stagger-child"><span class="pulse-dot" aria-hidden="true"></span>Live · Updates daily</span>
-        <span class="counter stagger-child" data-counter="6421.53" data-duration="2600">$0.00</span>
-        <p class="revenue-label stagger-child">Current average monthly revenue of businesses sold on EcomCla</p>
-        <p class="revenue-note stagger-child">Verified across active sellers. Updated every 24 hours.</p>
-      </div>
-    </section>
 
     <!-- FINAL CTA -->
     <section class="cta">
       <div class="container fade-up">
-        <h2 class="heading stagger-child">Ready to Own Your Business?</h2>
+        <h2 class="heading stagger-child">Ready to Own <span class="accent">Your Business?</span></h2>
         <p class="cta-sub stagger-child">Stop planning. Start owning. Your pre-built business is waiting.</p>
         <div class="btn-solo stagger-child">
           <a href="buy.html" class="btn btn-primary">Get Your Business — $48.99</a>
