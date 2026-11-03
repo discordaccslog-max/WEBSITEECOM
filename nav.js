@@ -29,6 +29,12 @@
     { href: 'faq.html', label: 'FAQ' }
   ];
 
+  // Thin-stroke line icons used inside injected markup
+  var ICON_CALENDAR =
+    '<svg class="icon" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="1.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>';
+  var ICON_SUPPORT =
+    '<svg class="icon" viewBox="0 0 24 24"><path d="M4.5 13v-1.5a7.5 7.5 0 0 1 15 0V13"/><rect x="3.5" y="13" width="4" height="6" rx="1"/><rect x="16.5" y="13" width="4" height="6" rx="1"/><path d="M18.5 19a3 3 0 0 1-3 2.5H13"/></svg>';
+
   var prefersReducedMotion =
     window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -348,14 +354,14 @@
           '<span class="gm-seal-word">BACK</span>' +
         '</div>' +
       '</div>' +
-      '<p class="gm-eyebrow">Limited Time Promise</p>' +
+      '<p class="gm-eyebrow">Limited time promise</p>' +
       '<h2 class="gm-title" id="guarantee-title">Don’t Risk a Single Dollar.</h2>' +
       '<p class="gm-body" id="guarantee-body">If your EcomCla business doesn’t generate at least $2,500 in your first 30 days, we’ll refund every penny. No questions. No hassle. You have nothing to lose.</p>' +
       '<hr class="gm-rule">' +
       '<ul class="gm-points">' +
         '<li class="gm-point"><span class="gm-emoji" aria-hidden="true">🛡️</span><span class="gm-label">Full Refund</span><span class="gm-sub">All ' + CONFIG.price + ' back</span></li>' +
-        '<li class="gm-point"><span class="gm-emoji" aria-hidden="true">📅</span><span class="gm-label">30 Days</span><span class="gm-sub">To hit $2,500</span></li>' +
-        '<li class="gm-point"><span class="gm-emoji" aria-hidden="true">✓</span><span class="gm-label">Online Support</span><span class="gm-sub">24 / 7</span></li>' +
+        '<li class="gm-point"><span class="gm-emoji" aria-hidden="true">' + ICON_CALENDAR + '</span><span class="gm-label">30 Days</span><span class="gm-sub">To hit $2,500</span></li>' +
+        '<li class="gm-point"><span class="gm-emoji" aria-hidden="true">' + ICON_SUPPORT + '</span><span class="gm-label">Online Support</span><span class="gm-sub">24 / 7</span></li>' +
       '</ul>' +
       '<hr class="gm-rule">' +
       '<a href="' + (onBuyPage ? '#product' : 'buy.html') + '" class="gm-cta" id="guarantee-cta">Get Your Business — ' + CONFIG.price + '</a>' +
